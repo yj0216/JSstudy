@@ -166,7 +166,11 @@
 
 // localStorage.setItem("myname",myName);//로컬 스토리지(웹 저장소)에 보관해 영구적으로 데이터를 보관함
 
-localStorage.setItem("cat","고양이");
-localStorage.setItem("cat","고양이");//중복이름은 안되기 때문에 뒤에 값으로 덮어 씌워짐
-localStorage.removeItem("cat");//로컬 스토리지 값 삭제
+// localStorage.setItem("cat","고양이");
+// localStorage.setItem("cat","고양이");//중복이름은 안되기 때문에 뒤에 값으로 덮어 씌워짐
+// localStorage.removeItem("cat");//로컬 스토리지 값 삭제
 //localStorage.clear();//모든 로컬 스토리지 값 삭제
+
+// const dayOfWeek = ["mon","tue","wed","thu","fri","sat","sun"];
+// dayOfWeek.push("sun");
+// console.log(dayOfWeek);
