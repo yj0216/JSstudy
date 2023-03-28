@@ -8,7 +8,7 @@ const USERNAME_KEY = "username";
 function handleLoginSubmit(event){
     event.preventDefault();
     loginForm.classList.add(HIDDEN_CLASSNAME);
-    localStorage.setItem(USERNAME_KEY,typedUsername);
+    localStorage.setItem(USERNAME_KEY, loginInput.value);
     painGreetings();
 }
 
