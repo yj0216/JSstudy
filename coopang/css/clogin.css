@@ -1,0 +1,37 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.login-input input{
+    width: 435px;
+    height: 36px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.login-form2{
+    margin: 20px 0px 10px;
+}
+/* .login-span{
+    border: 1px solid black;
+    padding: 14px;
+} */
+
+.login-comment{
+    display: inline-block;
+    width: 480px;
+}
+.login-comment label{
+    float: left;
+}
+.login-comment a{
+    float: right;
+    color: rgb(0, 153, 255);
+}
+.login-comment input[type=checkbox] {
+    margin: 0px 13px 0px 10px;
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    padding: 10px;
+
+}
