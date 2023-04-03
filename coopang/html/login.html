@@ -17,31 +17,33 @@
         <h1 id="coopang-topline">
             <img id="coopang-logo" src="../img/coopanglogo.png" />
         </h1>
-        <div class="login-form1">
-            <span class="login-span"></span>
-            <span class="login-input"><input type="text" placeholder="아이디(이메일)" /></span>
-        </div>
-        <div class="login-form2">
-            <span class="login-span"></span>
-            <span class="login-input"><input type="password" placeholder="비밀번호" /></span>
-        </div>
-
+            <form class="login-form1">
+                <span class="login-span" id="login-icon1"></span>
+                <span class="login-input"><input id="id" type="text" placeholder="아이디(이메일)" minlength="8" maxlength="30"
+                        required /></span>
+            </form>
+            <form class="login-form2">
+                <span class="login-span" id="login-icon2"></span>
+                <span class="login-input"><input id="password-input" type="password" placeholder="비밀번호" minlength="8" maxlength="15"
+                        required /></span>
+            </form>
         <div class="login-comment">
             <label><input type="checkbox" /><span>로그인 상태 유지</span></label>
             <a>아이디(이메일)/비밀번호 찾기 〉</a>
         </div>
 
-        <div class="coopang-button">
-            <input id ="login-button" type="button" value="로그인">
-        </div>
+        <form class="coopang-button">
+            <input id="login-button" type="button" value="로그인">
+        </form>
 
-        <div class="register-button coopang-button">
-            <input type="button" value="회원가입">
-        </div>
+        <form class="register-button coopang-button">
+            <input id="password-button" type="button" value="회원가입">
+        </form>
         <div id="corp">
             ©Coupang Corp. All rights reserved.
         </div>
     </div>
+    <script src="../js/login.js"></script>
 </body>
 
 </html>
