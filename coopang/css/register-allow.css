@@ -1,0 +1,56 @@
+.all-allow{
+    display: inline-block;
+    width: 465px;
+    border-top:1px solid #ccc;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.allow-check-box{
+    display: inline-block;
+    margin: 0px 8px 0px 0px;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #ccc;
+}
+.all-allow label:first-child{
+    display: inline-block;
+    width: 500px;
+
+}
+.all-allow label:last-child{
+    display: inline-block;
+    width: 436px;
+    text-align: start;
+}
+#all-allow-text{
+    float: left;
+    font-size: 18px;
+}
+#all-allow-detail{
+    float: left;
+    font-size: 12px;
+}
+.allow-list-form{
+    display: inline-block;
+    width: 480px;
+    text-align: start;
+    border: 1px solid #ccc;
+}
+.allow-list{
+   list-style: none;
+   padding: 0px 0px 10px 20px;
+}
+.allow-list li{
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.allow-list ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.allow-list ul li{
+    padding-top: 5px;
+}

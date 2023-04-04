@@ -2,9 +2,10 @@ const loginForm = document.querySelector(".login-form1");
 const id = loginForm.querySelector("#id");
 const passwordForm = document.querySelector(".login-form2");
 const password = passwordForm.querySelector("#password-input");
-
 const loginbutton = document.querySelector("#login-button");
 const passwordbutton = document.querySelector("#password-button");
+const coopangBody = document.querySelector(".coopang-body");
+const succeslogin = document.querySelector("#succes-login");
 
 const HIDDEN_CLASSNAME = "hidden";
 function handleLoginSubmit(event){
@@ -19,11 +20,15 @@ function handlePasswordSubmit(event){
     handleloginCheck();
 }
 
+function handleWelcomeLogin(){
+
+}
 function handleloginCheck(){   
     if(id.value !== "" && password.value !== "")
     {
         console.log("로그인 성공");
-        document.body.classList.add(HIDDEN_CLASSNAME);
+        coopangBody.classList.add(HIDDEN_CLASSNAME);
+        succeslogin.classList.remove(HIDDEN_CLASSNAME);
     }else{
         console.log("로그인 실패");
     }

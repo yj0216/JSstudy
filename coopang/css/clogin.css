@@ -26,7 +26,6 @@
 .login-span{
     border: 1px solid #ccc;
     padding: 14px 25px;
-
 }
 #login-icon1{
     background: url(../img/coopang_icon_message.png) no-repeat;
@@ -35,7 +34,7 @@
     background-size: 24px;
 }
 #login-icon2{
-    background: url(../img/coopang_icon_rock.png) no-repeat;
+    background: url(../img/coopang_icon_lock.png) no-repeat;
     background-color: #fafafa;
     background-position: 13px;
     background-size: 22px;

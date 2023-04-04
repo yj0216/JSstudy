@@ -1,0 +1,66 @@
+.cregister-body{
+    display: block;
+    text-align: center;
+}
+
+.register-comment div{
+    display: inline-block;
+    width: 465px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.register-input{
+    display: inline-block;
+    width: 415px;
+    height: 40px;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    border-left: 0px;
+    font-size: 15px;
+}
+.register-input input{
+    border: 0px;
+    padding-top: 8px;
+    font-size: 15px;
+    width: 380px;
+    outline: none;
+}
+.register-form{
+    margin: 13px 0px 10px 0px;
+}
+.register-span{
+    border: 1px solid #ccc;
+    padding: 14px 25px;
+}
+
+#register-icon1{
+    background: url(../img/coopang_icon_message.png) no-repeat;
+    background-color: #fafafa;
+    background-position: 13px;
+    background-size: 24px; 
+}
+#register-icon2{
+    background: url(../img/coopang_icon_lock.png) no-repeat;
+    background-color: #fafafa;
+    background-position: 13px;
+    background-size: 24px;
+}
+
+#register-icon3{
+    background: url(../img/copang_icon_unlock.png) no-repeat;
+    background-color: #fafafa;
+    background-position: 13px;
+    background-size: 22px;
+}
+#register-icon4{
+    background: url(../img/copang_icon_people.png) no-repeat;
+    background-color: #fafafa;
+    background-position: 13px;
+    background-size: 24px;
+}
+#register-icon5{
+    background: url(../img/copang_icon_phone.png) no-repeat;
+    background-color: #fafafa;
+    background-position: 13px;
+    background-size: 22px;
+}

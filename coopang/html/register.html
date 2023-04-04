@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../css/clogo.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <link rel="stylesheet" href="../css/register-allow.css" />
+</head>
+
+<body>
+    <div class="cregister-body">
+        <h1 id="coopang-topline">
+            <img id="coopang-logo" src="../img/coopanglogo.png" />
+        </h1>
+        <div class="register-comment">
+            <div>회원정보를 입력해주세요</div>
+        </div>
+        <form class="register-form-first">
+            <span class="register-span" id="register-icon1"></span>
+            <span class="register-input"><input id="id" type="text" placeholder="아이디(이메일)" minlength="8" maxlength="30"
+                    required /></span>
+        </form>
+        <form class="register-form">
+            <span class="register-span" id="register-icon2"></span>
+            <span class="register-input"><input id="password-input" type="text" placeholder="휴대폰 번호" minlength="8"
+                    maxlength="14" required /></span>
+        </form>
+        <form class="register-form">
+            <span class="register-span" id="register-icon3"></span>
+            <span class="register-input"><input id="idcheck-input" type="password" placeholder="비밀번호" minlength="8"
+                    maxlength="15" required /></span>
+        </form>
+        <form class="register-form">
+            <span class="register-span" id="register-icon4"></span>
+            <span class="register-input"><input id="name-input" type="password" placeholder="비밀번호 확인" minlength="8"
+                    maxlength="15" required /></span>
+        </form>
+        <form class="register-form">
+            <span class="register-span" id="register-icon5"></span>
+            <span class="register-input"><input id="phone-input" type="text" placeholder="이름" minlength="8"
+                    maxlength="15" required /></span>
+        </form>
+
+        <form class="allow-form">
+            <div class="all-allow">
+                <label>
+                    <span id="all-allow-text"><input type="checkbox" class="allow-check-box" />모두 확인하였으며 동의합니다.</span>
+                </label>
+                <label>
+                    <span id="all-allow-detail">
+                        전체 동의에는 필수 및 선택 정보에 대한 동의가 포함되어 있으며, 개별적으로 동의를 선택하실 수 있습니다.
+                        선택 항목에 대한동의를 거부하시는 경우에도 서비스 이용이 가능합니다.
+                    </span>
+                </label>
+            </div>
+            <div class="allow-list-form">
+                <ul class="allow-list">
+                    <li><input type="checkbox" class="allow-check-box">[필수] 만 14세 이상입니다</li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 쿠팡 이용약관 동의</li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 전자금융거래 이용약관 동의</li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 개인정보 수집 및 이용 동의</li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 개인정보 제3자 제공 동의</li>
+                    <li><input type="checkbox" class="allow-check-box">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의</li>
+                    <li><input type="checkbox" class="allow-check-box">
+                        [선택] 광고성 정보 수신 동의
+                        <ul>
+                            <li><input type="checkbox" class="allow-check-box">[선택] 이메일 수신 동의</li>
+                            <li><input type="checkbox" class="allow-check-box">[선택] SMS, SNS 수신 동의</li>
+                            <li><input type="checkbox" class="allow-check-box">[선택] 앱 푸시 수신 동의</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
