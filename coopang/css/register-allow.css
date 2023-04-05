@@ -8,7 +8,7 @@
 
 .allow-check-box{
     display: inline-block;
-    margin: 0px 8px 0px 0px;
+    margin: 0px 10px 0px 0px;
     width: 19px;
     height: 19px;
     border: 1px solid #ccc;
@@ -22,6 +22,7 @@
     display: inline-block;
     width: 436px;
     text-align: start;
+    padding-left: 27px
 }
 #all-allow-text{
     float: left;
@@ -34,6 +35,7 @@
 .allow-list-form{
     display: inline-block;
     width: 480px;
+    height: 370px ;
     text-align: start;
     border: 1px solid #ccc;
 }
@@ -42,15 +44,21 @@
    padding: 0px 0px 10px 20px;
 }
 .allow-list li{
-    position: relative;
     padding-bottom: 10px;
     font-size: 14px;
 }
 
+.allow-list li button{
+    float: right;
+    background: url(../img/coopang_arrow.png) no-repeat;
+    background-size: 20px;
+    padding: 15px;
+    border: 0px;
+}
 .allow-list ul{
     list-style: none;
     padding-left: 20px;
 }
 .allow-list ul li{
-    padding-top: 5px;
+    padding-top: 10px;
 }

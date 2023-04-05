@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/clogo.css" />
     <link rel="stylesheet" href="../css/register.css" />
     <link rel="stylesheet" href="../css/register-allow.css" />
+    <link rel="stylesheet" href="../css/cbutton.css">
 </head>
 
 <body>
@@ -60,13 +61,13 @@
             <div class="allow-list-form">
                 <ul class="allow-list">
                     <li><input type="checkbox" class="allow-check-box">[필수] 만 14세 이상입니다</li>
-                    <li><input type="checkbox" class="allow-check-box">[필수] 쿠팡 이용약관 동의</li>
-                    <li><input type="checkbox" class="allow-check-box">[필수] 전자금융거래 이용약관 동의</li>
-                    <li><input type="checkbox" class="allow-check-box">[필수] 개인정보 수집 및 이용 동의</li>
-                    <li><input type="checkbox" class="allow-check-box">[필수] 개인정보 제3자 제공 동의</li>
-                    <li><input type="checkbox" class="allow-check-box">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의</li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 쿠팡 이용약관 동의<button></button></li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 전자금융거래 이용약관 동의<button></button></li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 개인정보 수집 및 이용 동의<button></button></li>
+                    <li><input type="checkbox" class="allow-check-box">[필수] 개인정보 제3자 제공 동의<button></button></li>
+                    <li><input type="checkbox" class="allow-check-box">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의<button></button></li>
                     <li><input type="checkbox" class="allow-check-box">
-                        [선택] 광고성 정보 수신 동의
+                        [선택] 광고성 정보 수신 동의<button></button>
                         <ul>
                             <li><input type="checkbox" class="allow-check-box">[선택] 이메일 수신 동의</li>
                             <li><input type="checkbox" class="allow-check-box">[선택] SMS, SNS 수신 동의</li>
@@ -76,7 +77,14 @@
                 </ul>
             </div>
         </form>
+        <div class="rregister-button">
+            <input type="button" value="동의하고 가입하기">
+        </div>
+        <div id="corp">
+            ©Coupang Corp. All rights reserved.
+        </div>
     </div>
+    <script src="../js/register.js"></script>
 </body>
 
 </html>

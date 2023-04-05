@@ -64,3 +64,10 @@
     background-position: 13px;
     background-size: 22px;
 }
+
+.border-bottom-red{
+    border-bottom: 1px solid red;
+}
+.border-bottom-blue{
+    border-bottom: 1px solid blue;
+}
