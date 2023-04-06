@@ -71,3 +71,10 @@
 .border-bottom-blue{
     border-bottom: 1px solid blue;
 }
+.add-message{
+    display: block;
+    width: 460px;
+
+    font-size: 10px;
+    color: red;
+}
