@@ -71,10 +71,14 @@
 .border-bottom-blue{
     border-bottom: 1px solid blue;
 }
+.input-success{ 
+    background: url(../img/copang-icon-check.png) no-repeat;
+    background-position: 360px;
+}
 .add-message{
-    display: block;
+    display: inline-block;
     width: 460px;
-
+    text-align: start;
     font-size: 10px;
     color: red;
 }
